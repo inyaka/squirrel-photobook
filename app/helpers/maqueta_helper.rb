@@ -1,0 +1,2 @@
+module MaquetaHelper
+end

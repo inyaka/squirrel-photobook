@@ -1,0 +1,2 @@
+module Album2photosHelper
+end

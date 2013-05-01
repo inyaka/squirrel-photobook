@@ -1,0 +1,10 @@
+%h1
+  =link_to Lorem::Base.new('words', 2).output
+%section
+  %article=Lorem::Base.new('paragraphs', 1).output
+%aside
+  %article.twitter
+    %h2='twiter'
+    %ul
+      - 10.times do
+        %li=Lorem::Base.new('chars', 140).output

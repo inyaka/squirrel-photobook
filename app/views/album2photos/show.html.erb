@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Album:</b>
+  <%= @album2photo.album_id %>
+</p>
+
+<p>
+  <b>Published at:</b>
+  <%= @album2photo.published_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_album2photo_path(@album2photo) %> |
+<%= link_to 'Back', album2photos_path %>

@@ -1,0 +1,26 @@
+<h1 id="notice"><%= notice %></h1>
+<section>
+	<p>
+	<b>Name:</b>
+	<%= @album.name %>
+  </p>
+
+  <p>
+	<b>Description:</b>
+	<%= @album.description %>
+  </p>
+
+  <p>
+	<b>Order:</b>
+	<%= @album.order %>
+  </p>
+
+  <p>
+	<b>Published at:</b>
+	<%= @album.published_at %>
+  </p>
+</section>
+<footer>
+<%= link_to 'Edit', edit_album_path(@album) %> |
+<%= link_to 'Back', albums_path %>
+</footer>
